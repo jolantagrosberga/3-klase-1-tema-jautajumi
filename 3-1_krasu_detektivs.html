@@ -172,25 +172,25 @@ const IMG={
 /* ═══ jautājumi ═══ */
 const Q=[
 {
-  q:'Kuru no šīm krāsām nevar iegūt, sajaucot citas krāsas?',
+  q:'Kuru no šīm krāsām nevar iegūt, sajaucot citas?',
   hint:'Uzmanīgi: trīs no tām var sajaukt no citām krāsām.',
   img:IMG[1],
-  alt:'Krāsainas guašas krāsas un otas',
+  alt:'Krāsainas guašas un otas',
   opts:[{t:'Oranžs',c:'#E87722'},{t:'Zaļš',c:'#2D8A3E'},{t:'Zils',c:'#1B4FB5'},{t:'Violets',c:'#7B2D96'}],
   ans:2,
   fb:'Zils ir pamatkrāsa. Oranžs, zaļš un violets ir papildkrāsas — tās rodas, sajaucot divas pamatkrāsas.'
 },
 {
-  q:'Uz paletes sajauc dzeltenu un zilu. Kāda krāsa sanāks?',
+  q:'Uz paletes sajauc dzelteno un zilo krāsu. Kāda krāsa sanāks?',
   hint:'',
   img:IMG[2],
   alt:'Akvareļu krāsas uz paletes',
   opts:[{t:'Zaļa',c:'#2D8A3E'},{t:'Brūna',c:'#8A5A2B'},{t:'Pelēka',c:'#9A9A98'},{t:'Oranža',c:'#E87722'}],
   ans:0,
-  fb:'Dzeltens un zils kopā dod zaļu. Ar guašu tā sanāk vienmēr — arī tad, ja krāsas ir gaišākas vai tumšākas.'
+  fb:'Dzeltenais un zilais kopā dod zaļu. Ar guašu tā sanāk vienmēr — arī tad, ja krāsas ir gaišākas vai tumšākas.'
 },
 {
-  q:'Sarkanai krāsai piejauc mazliet melnas. Kas sanāks?',
+  q:'Sarkanajai krāsai piejauc mazliet melnās. Kas sanāks?',
   hint:'',
   img:IMG[3],
   alt:'Sarkanas krāsas triepiens uz papīra',
@@ -219,10 +219,10 @@ const Q=[
   fb:'Tā ir starpkrāsa. Starpkrāsa rodas, sajaucot pamatkrāsu ar blakus esošo papildkrāsu — te dzeltenu ar zaļu.'
 },
 {
-  q:'Kas sanāk, ja sarkanai krāsai piejauc ļoti daudz baltas?',
+  q:'Kas sanāk, ja sarkanajai krāsai piejauc ļoti daudz baltās?',
   hint:'Divas atbildes ir tuvu pareizajai. Izvēlies precīzāko.',
   img:IMG[6],
-  alt:'Otas un krāsainas krāsu peļķes',
+  alt:'Otas un krāsu traipi uz paletes',
   opts:[{t:'Pavisam jauna krāsa, kas vairs nav sarkana'},
         {t:'Ļoti gaiša sarkanās krāsas nokrāsa, ko sauc par rozā'},
         {t:'Oranžs'},{t:'Nekas nemainās'}],
@@ -234,7 +234,7 @@ const Q=[
   hint:'Padomā, kura krāsa ir visstiprākā.',
   img:IMG[7],
   alt:'Krāsu tūbiņas',
-  opts:[{t:'Melnā krāsa ir ļoti stipra un ātri padara krāsu tumšu'},
+  opts:[{t:'Melnā krāsa ir ļoti stipra un ātri padara toni tumšu'},
         {t:'Melnā krāsa ātri izžūst'},
         {t:'Melnā krāsa ir dārga'},
         {t:'Melnā krāsa nejaucas ar citām'}],
@@ -266,7 +266,7 @@ const Q=[
   q:'Bērns sajauca kopā visas krāsas, kas bija uz paletes. Kāpēc sanāca duļķaini brūns?',
   hint:'Tā notiek arī īstiem māksliniekiem.',
   img:IMG[10],
-  alt:'Skolas krāsu kastīte ar sajauktām krāsām',
+  alt:'Krāsu kastīte ar sajauktām krāsām',
   opts:[{t:'Krāsas bija vecas'},
         {t:'Jaucot daudz dažādu krāsu, tās viena otru nomāc'},
         {t:'Trūka baltās krāsas'},
@@ -276,7 +276,7 @@ const Q=[
 },
 {
   q:'Kas ir klājošas krāsas?',
-  hint:'Ar tādām jūs gleznojat vizuālajā mākslā.',
+  hint:'Ar tādām krāsām jūs gleznojat vizuālajā mākslā.',
   img:IMG[11],
   alt:'Skolas krāsas un otas uz galda',
   opts:[{t:'Biezas krāsas, kas nosedz apakšējo kārtu, piemēram, guaša'},
@@ -320,7 +320,7 @@ const ADVICE=[
   'Ja neesi pārliecināts, atceries, ko redzēji uz paletes, kad pats jauci krāsas.',
   'Atceries krāsu riteni: centrā pamatkrāsas, tad papildkrāsas, tad starpkrāsas.',
   'Nokrāsa nav jauna krāsa. Tā ir tā pati krāsa gaišāka vai tumšāka.',
-  'Vienā zemē krāsa var nozīmēt vienu, citā — pavisam ko citu. Tā ir katras tautas kultūra.'
+  'Vienā zemē krāsa var nozīmēt vienu, citā — pavisam ko citu. Tā ir katras tautas kultūras daļa.'
 ];
 
 function render(){
